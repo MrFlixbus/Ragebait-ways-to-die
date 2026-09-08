@@ -345,7 +345,7 @@ export class Game {
   private renderUI(): void {
     const button = (label: string, action: string, cls = '') =>
       `<button class="${cls}" data-action="${action}">${label}</button>`;
-    const footer = `<footer><span>4 BAD IDEAS. ZERO SURVIVAL INSTINCT.</span><span>ORIGINAL RECIPE · V1.0</span></footer>`;
+    const footer = `<footer><span>${scenarios.length} BAD IDEAS. ZERO SURVIVAL INSTINCT.</span><span>ORIGINAL RECIPE · V1.0</span></footer>`;
     const brand = `<div class="eyebrow"><span class="dot"></span> THE BAD DECISION ARCADE</div><h1><span>RAGEBAIT</span><br>WAYS TO <em>DIE.</em></h1>`;
     let content = '';
     if (this.screen === 'menu')

@@ -1,6 +1,6 @@
 # RAGEBAIT WAYS TO DIE
 
-An original, fully playable survival arcade game about a deeply replaceable orange temp. Four short minigames, one life, increasingly bad decisions. All characters, vector artwork, musical sequences and sound effects were created for this project.
+An original, fully playable survival arcade game about a deeply replaceable orange temp. Seven short minigames, one life, increasingly bad decisions. All characters, vector artwork, musical sequences and sound effects were created for this project.
 
 ## Run it
 
@@ -28,12 +28,17 @@ npm run preview
 
 Start a run, survive as many scenarios as possible, and lose on your first death. A short title card precedes each scenario. Success automatically advances; no Continue clicks. Every four successes increase difficulty, with bounded speed and a minimum 58% of the original timer. The same scenario cannot be randomly selected twice in a row.
 
-| Scenario           | Interaction                            | The terrible idea / the actual solution                                                 |
-| ------------------ | -------------------------------------- | --------------------------------------------------------------------------------------- |
-| Feed the Machine   | Drag, or arrows then Space/Enter       | Printing feeds the problem. Feed your resignation into the printer's mouth.             |
-| Dead Lift          | Timed click/tap or Space/Enter         | Calling your robot spotter during WORK is fatal. Ring during its visible REST interval. |
-| Career Escalator   | Hold left/right buttons, arrows or A/D | The promotion leads to a shredder. Walk left against the moving belt to EXIT.           |
-| Accept All Cookies | Repeated clicks/taps or Space/Enter    | Accepting allows the cookies to eat you. Eat the actual cookie first.                   |
+| Scenario           | Interaction                                 | The terrible idea / the actual solution                                                 |
+| ------------------ | ------------------------------------------- | --------------------------------------------------------------------------------------- |
+| Feed the Machine   | Drag, or arrows then Space/Enter            | Printing feeds the problem. Feed your resignation into the printer's mouth.             |
+| Dead Lift          | Timed click/tap or Space/Enter              | Calling your robot spotter during WORK is fatal. Ring during its visible REST interval. |
+| Career Escalator   | Hold left/right buttons, arrows or A/D      | The promotion leads to a shredder. Walk left against the moving belt to EXIT.           |
+| Accept All Cookies | Repeated clicks/taps or Space/Enter         | Accepting allows the cookies to eat you. Eat the actual cookie first.                   |
+| Hold the Door      | Hold/release button or Space/Enter          | Ignore fake dings; release during the real EXIT opening.                                |
+| Cross My Heart     | Hold/release button, Right/D or Space/Enter | Ignore WALK. Move while the camera is blind, stop before it opens.                      |
+| Terms & Detonation | Timed click/tap or Space/Enter              | Cut in green three times; every cut reverses the needle and relocates green.            |
+
+See [the ragebait expansion design](docs/RAGEBAIT_EXPANSION.md) for the mechanics and fairness boundaries.
 
 Menus support Tab, Shift+Tab and Enter. Escape pauses and resumes gameplay or backs out of settings. Pointer capture supports dragging beyond the initial object. Losing browser focus or hiding the tab pauses the run. Quit presents a humorous resignation screen because a page cannot reliably close a user-opened tab.
 
