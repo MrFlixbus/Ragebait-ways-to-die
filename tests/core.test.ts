@@ -86,9 +86,9 @@ describe('landscape and rotated portrait coordinates', () => {
   });
 });
 describe('scenario contracts and actual solutions', () => {
-  it('registers four unique, complete modules', () => {
-    expect(scenarios).toHaveLength(4);
-    expect(new Set(scenarios.map((s) => s.id)).size).toBe(4);
+  it('registers seven unique, complete modules', () => {
+    expect(scenarios).toHaveLength(7);
+    expect(new Set(scenarios.map((s) => s.id)).size).toBe(7);
     for (const s of scenarios) {
       expect(s.duration).toBeGreaterThanOrEqual(7);
       expect(s.music.length).toBeGreaterThan(3);
